@@ -6,6 +6,7 @@ in
 pkgs.mkShellNoCC {
   packages = with pkgs; [
     python311Full
+    python311Packages.ipython
     python311Packages.pip
     python311Packages.numpy
   ];
